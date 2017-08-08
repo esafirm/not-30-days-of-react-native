@@ -17,6 +17,12 @@ const rows = [
         image: '',
         text: 'Slot Machine',
         component: 'Main'
+    },
+    {
+        id: 2,
+        image: '',
+        text: 'Counter with Redux',
+        component: 'Counter'
     }
 ]
 
