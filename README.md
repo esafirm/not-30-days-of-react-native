@@ -14,6 +14,7 @@ npm start
 ## Projects
 
 - #1 - Main Menu + Stopwatch (ish)
+- #2 - Counter with Redux
 
 ## Contributors
 
