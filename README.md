@@ -1,6 +1,6 @@
 # (Not) 30 Days of React Native
 
-This is a collections of project that i create to learn React Native. Not gonna happen in 30 days although [the project](https://github.com/fangwei716/30-days-of-react-native) that motivate me.  
+This is a collections of project that i create to learn React Native. Not gonna happen in 30 days like [the project](https://github.com/fangwei716/30-days-of-react-native) that motivate me.  
 
 ## Run
 
