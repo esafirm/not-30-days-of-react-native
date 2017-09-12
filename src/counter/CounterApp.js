@@ -6,19 +6,22 @@ import Counter from './Counter'
 import * as actions from './CounterAction'
 
 const App = props => {
+    console.log(props)
+    console.log('store:', props.store)
     return (
         <Counter {...props} />
     )
 }
 
 const mapStateToProps = state => {
-    const { count } = state.default
+    const { count } = state.counterReducer
     return {
         count: count
     }
 }
 
-const mapDistpachToProps = dispatch => {
+const mapDistpachToProps = (dispatch, getState) => {
+    console.log('getState', getState)
     return {
         actions: bindActionCreators(actions, dispatch)
     }
