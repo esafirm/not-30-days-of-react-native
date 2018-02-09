@@ -1,22 +1,22 @@
 // https://github.com/erikras/ducks-modular-redux
 
 // Action
-const SEARCH = 'GifSearch/Search'
+const SEARCH = 'GifSearch/Search';
 
-// Reducers 
+// Reducers
 export default function reducer(state = {}, action = {}) {
-    switch (action.type) {
-        case SEARCH: {
-
-        }
-        default: return state
+  switch (action.type) {
+    case SEARCH: {
     }
+    default:
+      return state;
+  }
 }
 
 // Action Creator
 export function search(query) {
-    return {
-        type: SEARCH,
-        text: query
-    }
+  return {
+    type: SEARCH,
+    text: query
+  };
 }

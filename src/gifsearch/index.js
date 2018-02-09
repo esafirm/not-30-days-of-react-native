@@ -1,2 +1,2 @@
-import GifApp from './GifApp'
-export default GifApp
+import GifApp from './GifApp';
+export default GifApp;
