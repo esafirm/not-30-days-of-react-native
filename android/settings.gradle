@@ -1,0 +1,3 @@
+rootProject.name = 'not-30-days-learn-rn'
+
+include ':app'
